@@ -1,0 +1,32 @@
+.postfoot{
+
+
+    .icons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .body {
+        padding-left: 16px;
+
+        span {
+            font-weight: 300;
+        }
+        p {
+            font-weight: 600;
+            margin: 0;
+        }
+
+        p:last-child {
+            font-weight: 400;
+            opacity: 0.60;
+        }
+    }
+
+
+
+
+
+
+}

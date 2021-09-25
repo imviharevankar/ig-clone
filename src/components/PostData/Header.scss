@@ -1,0 +1,14 @@
+.pd__header {
+    grid-area: pd__header;
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+
+    cursor: pointer;
+
+
+    p {
+        padding-left: 5px;
+    }
+}

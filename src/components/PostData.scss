@@ -1,0 +1,11 @@
+.postdata {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 10% 65% 25%;
+    grid-template-areas: 
+    "pd__photo pd__header"
+    "pd__photo pd__body"
+    "pd__photo pd__footer";
+    z-index: 99;
+}

@@ -1,0 +1,39 @@
+.profilebody {
+  grid-area: profilebody;
+  border: 1px solid grey;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+
+  position: relative;
+ 
+
+
+  
+
+  Button {
+    margin: 0 20px;
+  }
+
+  .selected {
+    border-bottom: 2px solid red;
+  }
+}
+
+#posts {
+  display: block;
+}
+
+#saved {
+  display: none;
+}
+
+
+.p {
+    display: flex !important;
+    flex-wrap: wrap;
+    margin: auto;
+    
+
+}
+

@@ -1,0 +1,46 @@
+.profilehead {
+    grid-area: profilehead;
+    display: grid;
+    height: 35vh;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-areas:
+    "profile__pic profile__info profile__btns";
+    padding-top: 10px;
+    border: 1px solid green;
+    overflow: scroll;
+
+    .profile__pic {
+        grid-area: profile__pic;
+        color: gray;
+        display: flex;
+        justify-content: center;
+    }
+
+    .profile__info {
+        grid-area: profile__info;
+        padding-left: 20px;
+
+        p:first-child {
+            opacity: 0.6;
+            font-size: 2rem;
+        }
+
+        h6 {
+            font-weight: 600;
+            font-size: 1rem;
+            margin-top: -20px;
+        }
+    }
+
+    .profile__btns {
+        grid-area: profile__btns;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+        Button {
+            margin: 10px 0 !important;
+
+        }
+    }
+}

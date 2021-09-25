@@ -1,0 +1,16 @@
+.main {
+    width: 80%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 15vh auto;
+
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: 
+    "postlist about"
+    "postlist about";
+}

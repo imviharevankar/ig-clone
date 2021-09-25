@@ -1,0 +1,43 @@
+.about {
+  grid-area: about;
+  margin-left: 20px;
+  height: 80%;
+  position: fixed;
+  width: 30%;
+  right: 5%;
+  // margin-top: 15px;
+
+  .about__account {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-areas: "picture name logOut";
+    align-items: center;
+    margin-top: 10px;
+
+    .picture {
+      grid-area: picture;
+    }
+
+    .name {
+      grid-area: name;
+      padding-left: 5px;
+      p {
+        margin: 0;
+        font-weight: 600;
+      }
+
+      p:last-child {
+        font-weight: 400;
+        opacity: 0.6;
+      }
+    }
+
+    .logOut {
+      grid-area: logOut;
+      color: skyblue;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+  }
+}

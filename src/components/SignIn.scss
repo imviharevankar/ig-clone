@@ -1,0 +1,41 @@
+.signIn {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // width: clamp(40vw, 400px,90vw);
+    // margin-top: 20%;
+    // border: 1px solid black;
+    // margin: 50% auto;
+    // position: absolute;
+    // top: 0;
+    // right: 0;
+    // bottom: 0;
+    // left: 0;
+
+
+
+
+   form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: clamp(40vw, 400px,90vw);
+    // border: 1px solid black; 
+
+    .signIn__input {
+        margin: 15px 5px;
+    }
+
+    Button {
+        width: 100%;
+        margin-top: 15px;
+        text-transform: none;
+        font-size: 1.2em;
+    }
+
+   }
+
+
+}

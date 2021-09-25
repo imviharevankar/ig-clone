@@ -1,0 +1,9 @@
+.pd__footer_commentbox {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+
+    TextField {
+        margin-left: 10px !important;
+    }
+}
